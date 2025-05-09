@@ -338,7 +338,10 @@ p {
 
 
 /* contact info section */
-
+.contactInfoSection {
+    display: flex;
+    justify-content: center;
+}
 
 .contactInfoContainer {
     display: flex;
@@ -348,7 +351,6 @@ p {
     margin-top: 40px;
     margin-bottom: -30px;
     max-width: 1250px;
-    justify-self: center;
     padding: 70px 70px 40px 70px;
     border-radius: 15px 15px 0px 0px;
     box-shadow: 6px 6px 5px lightblue;
